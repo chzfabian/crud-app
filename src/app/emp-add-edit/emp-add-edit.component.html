@@ -1,0 +1,83 @@
+<div mat-dialog-title>
+  <h1>Formulario de Empleado</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Nombre de pila</mat-label>
+        <input matInput type="text" placeholder="Ej. Carlos" formControlName="NombreDePila">
+
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido</mat-label>
+        <input matInput placeholder="Ej. Acosta" formControlName="Apellido">
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" placeholder="Ej. Test@gmail.com" formControlName="Email">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Fecha de Nacimiento</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="FechadeNacimiento">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-radio-group aria-label="Select an option" formControlName="Genero">
+        <mat-label><b>Genero</b></mat-label>
+        <mat-radio-button value="masculino">Masculino</mat-radio-button>
+        <mat-radio-button value="femenino">Femenino</mat-radio-button>
+        <mat-radio-button value="otros">Otros</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Educación</mat-label>
+        <mat-select formControlName="education">
+          <mat-option *ngFor="let val of education" [value]="val">{{val}}
+          </mat-option>
+
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Empresa</mat-label>
+        <input matInput placeholder="Ej. IBM" formControlName="Empresa">
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Experiencia</mat-label>
+        <input matInput placeholder="Ej. 4" type="number" formControlName="Experiencia">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Salario</mat-label>
+        <input matInput placeholder="Ej. 12" type="number" formControlName="Salario">
+        <mat-hint>En dolares</mat-hint>
+      </mat-form-field>
+
+    </div>
+
+    <!-- Para ver si esta bien. Gracias
+    <pre>
+      {{
+        empForm.value | json
+      }}
+    </pre> -->
+
+  </div>
+  <div mat-dialog-actions class="action">
+    <button mat-raised-button type="button" [mat-dialog-close]="false">Cancelar</button>
+    <button mat-raised-button color="primary" type="submit">{{data ? 'Guardar': 'Guardar'}}</button>
+  </div>
+</form>

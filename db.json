@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "NombreDePila": "carlos",
+      "Apellido": "acosta",
+      "Email": "cfacosta.16@gmail.com",
+      "FechadeNacimiento": "2016-06-07T03:00:00.000Z",
+      "Genero": "masculino",
+      "Educacion": "Intermedio",
+      "Empresa": "IBM",
+      "Experiencia": 8,
+      "Salario": 2000,
+      "id": "f77e"
+    },
+    {
+      "id": "b878",
+      "NombreDePila": "carlos",
+      "Apellido": "acosta",
+      "Email": "cfacosta.16@gmail.com",
+      "FechadeNacimiento": "+234134-01-01T03:00:00.000Z",
+      "Genero": "masculino",
+      "Educacion": "Postgrado",
+      "Empresa": "IBM",
+      "Experiencia": 3,
+      "Salario": 5555
+    },
+    {
+      "id": "1df6",
+      "NombreDePila": "Laura",
+      "Apellido": "Copa",
+      "Email": "tester@gmail.com",
+      "FechadeNacimiento": "1994-02-08T03:00:00.000Z",
+      "Genero": "femenino",
+      "Educacion": "Postgrado",
+      "Empresa": "LINUX",
+      "Experiencia": 9,
+      "Salario": 2000
+    },
+    {
+      "NombreDePila": "carlos",
+      "Apellido": "acosta",
+      "Email": "cfacosta.16@gmail.com",
+      "FechadeNacimiento": "2016-06-07T03:00:00.000Z",
+      "Genero": "masculino",
+      "Educacion": "Intermedio",
+      "Empresa": "IBM",
+      "Experiencia": 5,
+      "Salario": 2000,
+      "id": "17b2"
+    }
+  ]
+}
