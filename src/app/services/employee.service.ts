@@ -13,6 +13,7 @@ export class EmployeeService {
   }
 
   updateEmployee(id: number, data: any): Observable<any> {
+    console.log(data);
     return this._http.put(`http://localhost:3000/employees/${id}`, data);
   }
 

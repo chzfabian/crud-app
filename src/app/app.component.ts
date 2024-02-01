@@ -38,7 +38,6 @@ import { CoreService } from './core/core.service';
     MatPaginatorModule,
     MatSortModule,
     MatSnackBarModule,
-    CoreService,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

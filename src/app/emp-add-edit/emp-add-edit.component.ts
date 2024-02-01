@@ -15,6 +15,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { EmployeeService } from '../services/employee.service';
 import { MatTableModule} from '@angular/material/table';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { CoreService } from '../core/core.service';
 
 
 @Component({
@@ -56,7 +57,8 @@ export class EmpAddEditComponent implements OnInit {
     private _empService: EmployeeService,
     private _dialogRef: MatDialogRef<EmpAddEditComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any,
-    private _coreService: CoreService
+    private _coreService: CoreService,
+
   ) {
     this.empForm = this._fb.group({
       NombreDePila: '',
