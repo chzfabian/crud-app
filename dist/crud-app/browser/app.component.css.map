@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.scss"],
+  "sourcesContent": [".example-spacer {\r\n  flex: 1 1 auto;\r\n}\r\n\r\n.main-body {\r\n  padding-top: 20px;\r\n  margin: 0 auto;\r\n  max-width: 1248px;\r\n  mat-form-field {\r\n    width: 100%;\r\n\r\n  }\r\n}\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,QAAA,EAAA,EAAA;;AAGF,CAAA;AACE,eAAA;AACA,UAAA,EAAA;AACA,aAAA;;AACA,CAJF,UAIE;AACE,SAAA;;",
+  "names": []
+}
