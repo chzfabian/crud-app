@@ -16,7 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <img src="./src/terminal2.png" width="80%" height="80%">
 
 
-<h1>3. luego de seguir los pasos correspondientes puedes inializar el proyecto y cargar los datos del empleado de una manera eficiente. Cargar|Eliminar|Modificar y Guardar. &#128171; &#127812; width="80%" height="80%"  </h1>
+<h1>3. luego de seguir los pasos correspondientes puedes inializar el proyecto y cargar los datos del empleado de una manera eficiente. Cargar|Eliminar|Modificar y Guardar. &#128171; &#127812; </h1>
 <img src="./src/terminal3.png" width="80%" height="80%">
 
 
