@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": ["src/app/emp-add-edit/emp-add-edit.component.scss"],
-  "sourcesContent": [".content {\r\n  padding-top: 10px;\r\n}\r\n\r\n.row {\r\n  display: flex;\r\n  gap: 10px;\r\n\r\n  mat-form-field {\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n.action {\r\n  padding: 0px 25px 20px;\r\n  button {\r\n    flex: 1;\r\n  }\r\n}\r\n"],
-  "mappings": ";AAAA,CAAA;AACE,eAAA;;AAGF,CAAA;AACE,WAAA;AACA,OAAA;;AAEA,CAJF,IAIE;AACE,SAAA;;AAIJ,CAAA;AACE,WAAA,IAAA,KAAA;;AACA,CAFF,OAEE;AACE,QAAA;;",
+  "sourcesContent": [".content {\r\n  padding-top: 10px;\r\n}\r\n.row {\r\n  display: flex;\r\n  gap: 10px;\r\n\r\n  mat-form-field {\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n.action {\r\n  padding: 0px 25px 20px;\r\n  button {\r\n    flex: 1;\r\n  }\r\n}\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,eAAA;;AAEF,CAAA;AACE,WAAA;AACA,OAAA;;AAEA,CAJF,IAIE;AACE,SAAA;;AAIJ,CAAA;AACE,WAAA,IAAA,KAAA;;AACA,CAFF,OAEE;AACE,QAAA;;",
   "names": []
 }

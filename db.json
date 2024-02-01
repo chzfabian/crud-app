@@ -40,16 +40,16 @@
       "id": "f77e"
     },
     {
-      "id": "b878",
       "NombreDePila": "carlos",
       "Apellido": "acosta",
       "Email": "cfacosta.16@gmail.com",
-      "FechadeNacimiento": "+234134-01-01T03:00:00.000Z",
+      "FechadeNacimiento": "2024-01-09T03:00:00.000Z",
       "Genero": "masculino",
-      "Educacion": "Postgrado",
+      "Educacion": "Diploma",
       "Empresa": "IBM",
       "Experiencia": 3,
-      "Salario": 5555
+      "Salario": 5555,
+      "id": "b878"
     },
     {
       "NombreDePila": "Laura",
@@ -81,7 +81,7 @@
       "Email": "matienzo@gmail.com",
       "FechadeNacimiento": "2017-06-13T03:00:00.000Z",
       "Genero": "masculino",
-      "Educacion": "Postgrado",
+      "Educacion": "Intermedio",
       "Empresa": "EMPRESAS POLAR",
       "Experiencia": 4,
       "Salario": 10000,
